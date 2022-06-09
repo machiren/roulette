@@ -1,5 +1,7 @@
+import { RouletteCircle } from "../../components/RouletteCircle";
+
 const RoulettePage = (): JSX.Element => {
-  return <></>;
+  return <RouletteCircle />;
 };
 
 export default RoulettePage;
