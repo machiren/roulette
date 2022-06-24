@@ -65,7 +65,7 @@ export const RouletteCircle = () => {
         <Box mb={8}>
           <UnorderedList>
             {members.map((member, index) => (
-              <ListItem>
+              <ListItem key={index}>
                 <Box>
                   <Text>{member}</Text>
                   <Button onClick={() => handleMemberDelete(index)}>

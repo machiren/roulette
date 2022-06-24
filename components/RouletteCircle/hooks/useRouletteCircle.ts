@@ -23,7 +23,7 @@ type HookReturnType = {
 
 export const useRouletteCircle = (): HookReturnType => {
   const styles = useSpring({
-    loop: true,
+    loop: false,
     from: { rotate: 0 },
     to: { rotate: 360 },
   });
